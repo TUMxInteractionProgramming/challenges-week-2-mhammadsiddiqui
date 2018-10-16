@@ -1,0 +1,120 @@
+        /* #2 #colorful #palette is:
+          * Background: #F5F5F5 (GREY 100)
+          * Primary Text: black
+
+          * Primary color: #3F51B5 (INDIGO)
+          * Primary color_text : white
+          * Accent color: #CDDC39 (LIME)
+          * Accent color_text: black
+          */
+
+        /*global styles */
+        * {
+            /* #2 #font #faces */
+            font-family: 'Arial', sans-serif;
+            margin: 0px;
+            padding: 0px;
+        }
+
+        body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5; /*its F5F5F5*/
+        }
+
+        /*App bar*/
+
+        #channel-area h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        #channel-area li{
+            padding-left: 2.5%;
+            padding: 16px;
+            font-size: 16px;
+        }
+        #chat-area h1 {
+            /* #2 #colourful #app-bar */
+            background-color: #3F51B5;
+            color: white;
+        }
+
+        #channel-area .channel-button .selected{
+            border-bottom: 4px solid #3F51B5;
+            color: #3F51B5;
+        }
+
+        #channel-area ul .selected{
+            border-left: 4px solid #3F51B5;
+            color: #3F51B5;
+        }
+
+        button {
+            /* #2 #colourful #plusfive */
+            background-color: #CDDC39;
+            color: black;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;
+        }
+
+        #channel-area button{
+            /* #2 #colourful #plusfive */
+            background-color: white;
+            border: none;
+            font-size: 13px;
+            width: 33%;
+            height: 72px;
+            padding: 16px;
+            margin: auto;
+            /* #2 #font capital #letters */
+            text-transform: uppercase;   
+        }
+
+        .channel-button {
+            background-color: white;
+        }
+
+
+        /*styles for channel area*/
+        .channelTopics {
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        .channelTopics li{
+            /* #2 #colorful #channelandchat */
+            background-color: white;
+        }
+
+        .chatArea a{
+            color: black;
+        }
+
+        /*Channels list*/
+        /*Tab bar*/
+        /*Messages*/
+        .message{
+            width: 80%; 
+            margin-bottom: 8px;
+            font-size: medium;
+            margin-left: 2.5%;
+        }
+        .message p{
+            background-color: white;
+            padding: 16px;
+        }
+
+        .own{
+            margin-left: 17.5%;
+        }
+
+        .message button{
+            background-color: #CDDC39;
+            color: black;
+            text-transform: uppercase;
+        }
+        .message em{
+            font-size: larger;
+            font-style: normal;
+        }
